@@ -19,6 +19,8 @@ public:
 
 	Product(int);
 	
+	Product();
+	
 	Product(const Product&);
 
 	Product& operator = (const Product&);

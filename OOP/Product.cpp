@@ -23,9 +23,10 @@ int Product::getNumber() const{
 
 void Product::setNumber(int _number){
 	int br = 0;
-	while(_number > 0){
+	int temp = _number;
+	while(temp > 0){
 		br++;
-		_number /= 10;
+		temp /= 10;
 	}
 	if(br <= 6){
 		number = _number;
@@ -47,6 +48,12 @@ Product::Product(int _number){
 	name = new char[2];
 	strcpy(name, "");
 	setNumber(_number);
+}
+
+Product::Product(){
+	price = 0.0;
+	number = 0;
+	name = new char[2];
 }
 
 Product::Product(const Product& other){

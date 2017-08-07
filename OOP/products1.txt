@@ -1,3 +1,4 @@
-xyyyyy ,0,55.43
-xxxxx ,0,14.44
-xyyyyy ,0,55.43
+xyyyyy ,8876,55.43
+xxxxx ,334,14.44
+xyyyyy ,8876,55.43
+zzzzz ,8876,1000.43
